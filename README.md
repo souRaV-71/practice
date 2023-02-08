@@ -1,5 +1,6 @@
-In dev branch git modified
+Creating a virtual env to run code snippets
+conda create -n venv python=3.8 -y
 
-date 11th Dec 2022 - 01:21:26 / 04:31:51
+Activating the env
+conda activate venv
 
-Created dev env in docker desktop windows by cpy git url
