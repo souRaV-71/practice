@@ -226,3 +226,4 @@ replay_pid*
 .vscode
 test.sh
 lastCmds.txt
+vnv/*
