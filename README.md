@@ -1,21 +1,10 @@
 Step 1 — Setting Up Python 3
 
-sudo apt update
-sudo apt -y upgrade
-
-python3 -V
-
-sudo apt install -y python3-pip
-
-pip3 install package_name
-
-sudo apt install build-essential libssl-dev libffi-dev python3-dev
+sudo apt-get update && sudo apt-get install -fy python3-pip build-essential libssl-dev libffi-dev python3-dev python3-venv
 
 ###### OPTIONAL #######
 
 Step 2 — Setting Up a Virtual Environment
-
-sudo apt install -y python3-venv
 
 mkdir environments
 cd environments
